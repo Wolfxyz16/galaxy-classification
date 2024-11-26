@@ -8,6 +8,8 @@ import csv
 import pandas as pd
 import time
 
+random.seed(22)
+
 print("Starting images.py")
 
 start = time.time()
@@ -40,6 +42,6 @@ with open('random_galaxies.csv', mode='w', newline='') as file:
 
 end = time.time()
 
-print(f"Sample done in {end - start:.2} seconds")
+print(f"Sample done in {end - start:.2f} seconds")
 print(f"Saved {len(random_galaxies)} images")
 print("Sample finished")
