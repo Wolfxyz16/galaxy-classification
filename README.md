@@ -1,5 +1,7 @@
 # Galaxy classification using convolutional networks
 
+[Enlace al cuaderno jupyter](https://colab.research.google.com/drive/1fEvicnUxsuY2gYEj2rAO_zAFWn50vPo4?usp=sharing)
+
 This repository contains a set of tools and data for generating and working with galaxies images, specifically for training purposes. The project includes code for sampling images, as well as CSV files that track various galaxy-related information.
 
 ## Estructura del directorio
